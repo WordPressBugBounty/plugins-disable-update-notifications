@@ -1,0 +1,1 @@
+# plugins-disable-update-notifications
