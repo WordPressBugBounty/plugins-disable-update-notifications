@@ -1,8 +1,8 @@
 === Disable WordPress Update Notifications and auto-update Email Notifications ===
 Contributors: freewebmentor
 Tags: disable, core update, plugin update, update notifications, hide Warnings
-Requires at least: 3.5
-Tested up to: 6.5
+Requires at least: 5.0
+Tested up to: 6.7
 Stable tag: 2.4.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
