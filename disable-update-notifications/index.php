@@ -73,7 +73,7 @@ function dwun_plugin_settings() {
 						<tr class="mlw-box-left">
 							<th scope="row">
 								<span for="dpun">Plugin Update </span><br>
-								<small>Hide all plugins update notifications.</small>
+								<small>Select 'On' to hide all plugins update notifications.</small>
 							</th>
 							<td>
 								<div class="onoffswitch">
@@ -90,7 +90,7 @@ function dwun_plugin_settings() {
 						<tr class="mlw-box-left">
 							<th scope="row">
 								<span for="dwtu">Theme Update</span><br>
-								<small>Hide all themes update notifications.</small>
+								<small>Select 'On' to hide all themes update notifications.</small>
 							</th>
 							<td>
 								<div class="onoffswitch">
@@ -106,7 +106,7 @@ function dwun_plugin_settings() {
 						<tr class="mlw-box-left">
 							<th scope="row">
 								<span for="dwcun">WordPress Core Update</span><br>
-								<small>Hide WordPress core version update notifications.</small>
+								<small>Select 'On' to hide WordPress core version update notifications.</small>
 							</th>
 							<td>
 								<div class="onoffswitch">
@@ -123,7 +123,7 @@ function dwun_plugin_settings() {
 						<tr class="mlw-box-left">
 							<th scope="row">
 								<span for="den">Disable auto-update Email Notifications</span><br>
-								<small>Disable plugins & themes auto-update email notifications.</small>
+								<small>Select 'On' to disable plugins & themes auto-update email notifications.</small>
 							</th>
 							<td>
 								<div class="onoffswitch">
