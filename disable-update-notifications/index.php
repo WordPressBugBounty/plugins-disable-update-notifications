@@ -4,7 +4,7 @@
  * Plugin URI: https://www.premtiwari.in/disable-wordpress-update-notifications/
  * Description: This plugin will disable WordPress core update notification, plugin update notification and theme update notifications and inline warnings in your admin panel.
  * Author: Prem Tiwari
- * Version: 2.4.2
+ * Version: 2.4.3
  * Author URI: https://www.premtiwari.in/
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -20,7 +20,9 @@ define( 'DWUN_PLUGIN_BASE', plugin_basename( __FILE__ ) );
 require_once( ABSPATH . 'wp-includes/pluggable.php' );
 
 function dwun_plugin_admin_style() {
-	if ( isset( $_GET['page'] ) && 'fm-dwns' === $_GET['page'] ) {
+	$page = isset( $_GET['page'] ) ? sanitize_key( wp_unslash( $_GET['page'] ) ) : '';
+
+	if ( 'fm-dwns' === $page ) {
 		wp_enqueue_style( 'dwun-admin-style', plugins_url( "css/admin-style.css", __FILE__ ) );
 	}
 }
